@@ -119,8 +119,9 @@
         }
         .circle:hover img{
             position: absolute;
-            top: 0%;
+            top: 18%;
             transition: 1s;
+            left:20%;
          }
          .circle .content{
             opacity: 0;
@@ -203,7 +204,7 @@
             background: linear-gradient(75deg,skyblue,violet);
         }
         .carousel{
-            width: 80%;
+           /* width: 80%; */
             height: 80v;
             box-shadow: 10px 20px 10px rgba(0,0,0,.4); 
         }
