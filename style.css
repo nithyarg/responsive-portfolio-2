@@ -193,13 +193,14 @@
             box-shadow: 2px 4px 5px white, -2px -2px 5px gray;
         }
 
-        /* Project Section */  
+        /* Projects Section */  
 
-        #project{
+        #projects{
             display: flex;
             justify-content: center;
             align-items: center;
             padding-top: 3%;
+            background: linear-gradient(75deg,skyblue,violet);
         }
         .carousel{
             width: 80%;
@@ -207,8 +208,40 @@
             box-shadow: 10px 20px 10px rgba(0,0,0,.4); 
         }
         iframe{
-            width: 100%;
+            width: 100%; 
             height: 80vh;
         }
 
+        @media  screen and(max-width:576px) {
+            .carousel{
+                width: 90%;
+                height: 50vh;
+                box-shadow: 10px 20px 10px rgba(0,0,0,.4); 
+            }
+            iframe{
+                width: 100%; 
+                height: 50vh;
+            }
+        } 
+        /*Pricing section*/
+        #pricing{
+            padding-top: 5%;
+        }
+        .card{
+            margin-top: 15%;
+        }
+        .card:hover{
+            box-shadow: 8px 8px 15px rgba(0,0,0,.4);
+            transition: -2s;
+        }
+
+        /*Contact Section*/
+
+        #Contact{
+            padding-top: 7%; 
+            background-color: aliceblue;
+        }
+        #Contact iframe{
+            box-shadow: 15px 20px 10px rgba(0,0,0,.4);
+        }
 
